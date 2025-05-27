@@ -15,5 +15,8 @@ config/version=4
 
 [display]
 
+[application]
+config/name="Sphere Trajectories"
+
 [run]
-main_scene=res://HelloWorld.tscn
+script = "res://Main.gd"
