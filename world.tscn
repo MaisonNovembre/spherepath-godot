@@ -1,8 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://dgfx167lqnt46"]
+[gd_scene load_steps=3 format=3 uid="uid://dgfx167lqnt46"]
+
+[ext_resource type="Script" uid="uid://dv3i7r4ty4f4t" path="res://SphereTrajectories.gd" id="1_f3sb7"]
 
 [sub_resource type="SphereMesh" id="SphereMesh_gv5m4"]
 
 [node name="World" type="Node3D"]
+script = ExtResource("1_f3sb7")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("SphereMesh_gv5m4")
+
+[node name="Camera3D" type="Camera3D" parent="."]
