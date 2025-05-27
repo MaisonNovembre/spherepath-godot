@@ -16,4 +16,4 @@ config/version=4
 [display]
 
 [run]
-main_scene=res://Main.tscn
+main_scene=res://HelloWorld.tscn
