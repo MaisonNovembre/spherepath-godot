@@ -1,0 +1,23 @@
+# Godot project files
+*.scache/
+*.log
+*.import
+*.mo
+*.pot
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build directories
+bin/
+build/
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE specific files
+.vscode/
+.idea/
