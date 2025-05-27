@@ -1,0 +1,23 @@
+[sub_resource type="Node" id=1]
+
+canvas_layer/root = true
+canvas_layer/mouse_filter = Ignore
+
+[node name="Root" type="Node"]
+
+script = NewEmpty(Script)
+script/code =
+    extends Node
+
+    func _ready():
+        var hello_world = HelloWorld.new()
+        add_child(hello_world)
+        hello_world._ready()
+
+[sub_resource type="Script" id=2]
+
+[ext_resource path="res://HelloWorld.gd" type="Script" id=3]
+
+[node name="HelloWorld" type="Node" parent="."]
+
+script = ExtResource(3)
