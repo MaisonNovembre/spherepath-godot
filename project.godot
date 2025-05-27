@@ -1,22 +1,16 @@
-[general]
-config/version=4
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
 
-[sub_resources]
-
-[sub_paths]
-
-[auto_load]
-
-[preload]
-
-[constants]
-
-[icon]
-
-[display]
+config_version=5
 
 [application]
-config/name="Sphere Trajectories"
 
-[run]
-script = "res://Main.gd"
+config/name="Nouveau projet de jeu"
+run/main_scene="uid://dgfx167lqnt46"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="res://icon.svg"
